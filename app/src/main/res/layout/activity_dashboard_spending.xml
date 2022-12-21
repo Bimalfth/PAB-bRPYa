@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="147dp"
+        android:src="@drawable/dashback" />
+    <ImageView
+        android:id="@+id/balance"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:background="@drawable/balance"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="75dp"/>
+    <ImageView
+        android:layout_width="177dp"
+        android:layout_height="123dp"
+        android:background="@drawable/goodies"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="90dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="310dp"
+        android:background="@drawable/backgroundputih"
+        android:fontFamily="@font/poppinsmedium" />
+
+    <TextView
+        android:id="@+id/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="55dp"
+        android:fontFamily="@font/poopins_black"
+        android:gravity="center"
+        android:text="Dashboard"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:hint="Your Balance"
+        android:padding="8dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:id="@+id/jumlahsaldo"
+        android:text="Rp.Txt-000"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:text="bRP YA Card"
+        android:textSize="10dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="185dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="350dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="USER NAME"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/spend"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/btnw"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:hint="Spending"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:id="@+id/income"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="250dp"
+        android:alpha="0.9"
+        android:background="@drawable/btnw"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center"
+        android:hint="Income"
+        android:textColorHint="@color/black" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="330dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Latest Spending"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/btngrey"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center_vertical"
+        android:hint="TXT ACTIVITY"
+        android:textColorHint="@color/black" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/btnred"
+        android:text="Rp 7800"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"/>
+    <TextView
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/btngrey"
+        android:fontFamily="@font/poppinsbold"
+        android:gravity="center_vertical"
+        android:hint="TXT ACTIVITY"
+        android:textColorHint="@color/black" />
+    <TextView
+        android:layout_width="130dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="230dp"
+        android:layout_marginTop="430dp"
+        android:background="@drawable/btnred"
+        android:text="Rp 7800"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsmedium"/>
+
+
+    <!--  BOTTOM NAV MENU  -->
+    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:id="@+id/bottomAppBar"
+            app:fabCradleMargin="10dp"
+            app:fabCradleRoundedCornerRadius="10dp"
+            app:fabCradleVerticalOffset="10dp"
+            >
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/bottomNavigationView"
+                android:layout_marginRight="16dp"
+                app:menu="@menu/botton_nav_menu"
+                android:background="@drawable/transparent_background"
+                />
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/ic_baseline_add_24"
+            app:layout_anchor="@id/bottomAppBar" />
+
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <!--  BOTTOM NAV MENU  -->
+
+</RelativeLayout>
