@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Dashboard"/>
+
+    <item
+        android:id="@+id/saving"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="Saving"/>
+
+    <item
+        android:id="@+id/placeholder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/debt"
+        android:icon="@drawable/ic_baseline_receipt_24"
+        android:title="Debt"/>
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profile"/>
+
+
+
+
+</menu>

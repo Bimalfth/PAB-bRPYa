@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".AddNewDebt">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="back"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:background="@drawable/btnw"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add New Debt"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="30dp"
+        android:layout_below="@+id/btnBack"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnBack"
+        android:layout_marginTop="85dp"
+        android:layout_marginLeft="30dp"
+        android:text="Who's in debt?"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <Button
+        android:id="@+id/btnMe"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btnBack"
+        android:layout_marginTop="122dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/backgroundputih"
+        app:backgroundTint="@null"
+        android:text="Me"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:textSize="14dp"
+        android:alpha="0.5"/>
+
+    <Button
+        android:id="@+id/btnOther"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_toRightOf="@+id/btnMe"
+        android:layout_below="@+id/btnBack"
+        android:layout_marginTop="122dp"
+        android:layout_marginLeft="45dp"
+        android:background="@drawable/backgroundputih"
+        app:backgroundTint="@null"
+        android:textColor="@color/black"
+        android:text="Other"
+        android:textSize="14dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <EditText
+        android:id="@+id/inpDebtWith"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnMe"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#D9D9D9"
+        android:hint="In debt with"
+        android:padding="20dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <EditText
+        android:id="@+id/inpFor"
+        android:inputType="number"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpDebtWith"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#D9D9D9"
+        android:hint="For"
+        android:padding="20dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <EditText
+        android:id="@+id/inpNominal"
+        android:inputType="number"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpFor"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#D9D9D9"
+        android:hint="Nominal"
+        android:padding="20dp"
+        android:fontFamily="@font/poppinsbold"/>
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpNominal"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="#D9D9D9" >
+
+        <TextView
+            android:id="@+id/txDeadline"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="Deadline"
+            android:textSize="17sp"
+            android:fontFamily="@font/poppinsbold"
+            android:padding="20dp" />
+
+        <ImageView
+            android:id="@+id/btnDate"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="140dp"
+            android:layout_gravity="center"
+            android:onClick="fSetTanggal"
+            android:src="@drawable/ic_baseline_calendar_month_24"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAcc"
+        android:layout_width="345dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/inpNominal"
+        android:layout_marginTop="96dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/button_shape"
+        android:text="Accept"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppinsbold"
+        android:padding="20dp"/>
+
+</RelativeLayout>

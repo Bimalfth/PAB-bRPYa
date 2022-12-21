@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1033150584646",
+    "firebase_url": "https://brp-ya-default-rtdb.firebaseio.com",
+    "project_id": "brp-ya",
+    "storage_bucket": "brp-ya.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1033150584646:android:d514d3cfe759ff2036b747",
+        "android_client_info": {
+          "package_name": "com.example.brpya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1033150584646-0bp1kq6c5icd76hakbtgm1slpu2rrthr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDZFBTu8Jce_tSHIu8gs0gYULgjAjoDs4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1033150584646-0bp1kq6c5icd76hakbtgm1slpu2rrthr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
