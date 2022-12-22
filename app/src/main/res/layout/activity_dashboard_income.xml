@@ -110,6 +110,7 @@
         android:fontFamily="@font/poppinsbold"
         android:gravity="center"
         android:hint="Income"
+        android:onClick="fSpend"
         android:textColorHint="@color/black" />
 
     <TextView
@@ -146,9 +147,7 @@
 
 
 <!--  BOTTOM NAV MENU  -->
-    <androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -158,6 +157,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:id="@+id/bottomAppBar"
+            android:onClick="fSaving"
             app:fabCradleMargin="10dp"
             app:fabCradleRoundedCornerRadius="10dp"
             app:fabCradleVerticalOffset="10dp"

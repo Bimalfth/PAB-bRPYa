@@ -9,6 +9,7 @@ import java.util.*
 
 class AddNewDebt : AppCompatActivity() {
     lateinit var inpNominal: EditText
+//    jjhjhj
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

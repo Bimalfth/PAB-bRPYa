@@ -99,6 +99,7 @@
         android:fontFamily="@font/poppinsbold"
         android:gravity="center"
         android:hint="Spending"
+        android:onClick="fIncome"
         android:textColorHint="@color/black" />
 
     <Button

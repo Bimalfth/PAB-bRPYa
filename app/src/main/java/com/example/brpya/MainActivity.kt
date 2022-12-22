@@ -9,12 +9,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_dashboard_income)
     }
-
-    fun test(){
-        
-    }
-
-    fun aa(){
-        
-    }
 }
